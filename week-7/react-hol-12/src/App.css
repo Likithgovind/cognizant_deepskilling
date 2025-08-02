@@ -1,0 +1,37 @@
+.app-container {
+  text-align: center;
+  padding: 50px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #34495e;
+}
+
+p {
+  font-size: 20px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:not(.reset) {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.reset {
+  background-color: #e74c3c;
+  color: white;
+}
